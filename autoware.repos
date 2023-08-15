@@ -93,6 +93,10 @@ repositories:
     type: git
     url: https://github.com/zillur-av/mkz_launch.git
     version: main
+  vehicle/sample_vehicle_launch:
+    type: git
+    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git

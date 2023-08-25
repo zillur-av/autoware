@@ -57,8 +57,8 @@ repositories:
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
-    url: https://github.com/tier4/sensor_component_description.git
-    version: 475857daeb4c4883ab0295336713364b326e8278
+    url: https://github.com/zillur-av/sensor_component_description.git
+    version: main
   sensor_component/external/tamagawa_imu_driver:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
@@ -72,6 +72,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
     version: 06330e6b07449a3609ced295c0a9ce6a1805ef99
+  sensor_kit/mkz_sensor_kit_launch:
+    type: git
+    url: https://github.com/zillur-av/sample_sensor_kit_launch.git
+    version: mkz
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -81,12 +85,20 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
     version: 157238ca77de7b0a59f71a0b28f456741fab3ca2
+  vehicle/mkz_launch:
+    type: git
+    url: https://github.com/zillur-av/mkz_launch.git
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
     version: 3db50a2abc68576308289cc84d83d14376144d64
-  # param
-  param/autoware_individual_params:
+  vehicle/external/mkz_interface:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: 09082b6cbb99a840c53878a190616d35a40b569f
+    url: https://github.com/zillur-av/mkz_interface.git
+    version: main
+  # param
+  param/autoware_individual_params_mkz:
+    type: git
+    url: https://github.com/zillur-av/autoware_individual_params_mkz.git
+    version: main
